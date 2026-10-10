@@ -1,0 +1,26 @@
+{
+  "schema_version": "literature-domain-profile/1",
+  "id": "comparative-research",
+  "version": "1.0.0",
+  "name": "Comparability and attribution",
+  "checks": [
+    {
+      "id": "comparison-conditions",
+      "label": "Comparison conditions",
+      "question": "Do the compared studies concern compatible research objects and conditions, and are material differences stated?",
+      "applies_to": ["synthesis", "proposed_gap"],
+      "severity": "critical",
+      "requires_source": true,
+      "evidence_requirements": ["At least one source location for each material side of the comparison"]
+    },
+    {
+      "id": "attribution-boundary",
+      "label": "Result versus interpretation",
+      "question": "Does the prose distinguish the cited author's result from the reviewer's explanation or inference?",
+      "applies_to": ["source_result", "interpretation", "synthesis"],
+      "severity": "critical",
+      "requires_source": true
+    }
+  ],
+  "extensions": {}
+}

@@ -1,0 +1,3 @@
+interface:
+  display_name: "literature-review-workbench"
+  short_description: "检索文献、组织论点与原文证据，生成综述并持续复核，支持接入专题文献库"

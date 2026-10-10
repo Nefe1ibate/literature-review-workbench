@@ -1,0 +1,299 @@
+{
+  "schema_version": "1.0",
+  "skill": "literature-review-workbench",
+  "reference_profile": "adapted-workbench-v1",
+  "inspected_date": "2026-10-08",
+  "timezone": "Asia/Shanghai",
+  "purpose": "Record read-only primary-source inspection supporting a conceptual Codex implementation and an adapted audit; does not attest reproducibility of the original DAS generator.",
+  "project": {
+    "name": "Deep Academic Survey (DAS)",
+    "paper_title": "Deep Academic Survey: Stateful Agentic Closed-Loop Paradigm for Academic Survey Automation",
+    "authors": [
+      "Zhikai Xu",
+      "Zhucun Xue",
+      "Teng Hu",
+      "Yabiao Wang",
+      "Yong Liu",
+      "Jiangning Zhang"
+    ],
+    "requested_url": "https://zhikaixu24.github.io/projects/DAS/#manuscripts",
+    "repository_url": "https://github.com/ZhikaiXu24/DAS",
+    "observed_default_branch": "main",
+    "commit_sha": "24fa88b3eee004f0926b978717ba4a716f79661a",
+    "commit_committer_date": "2026-08-20T10:59:20Z",
+    "commit_url": "https://github.com/ZhikaiXu24/DAS/commit/24fa88b3eee004f0926b978717ba4a716f79661a",
+    "commit_observation_api": "https://api.github.com/repos/ZhikaiXu24/DAS/commits/main",
+    "tree_inspection_api": "https://api.github.com/repos/ZhikaiXu24/DAS/git/trees/24fa88b3eee004f0926b978717ba4a716f79661a?recursive=1",
+    "paper_identifier": "arXiv:2608.18034v1",
+    "paper_version_url": "https://arxiv.org/html/2608.18034v1",
+    "upstream_code_documentation_license": "Apache-2.0",
+    "generation_code_status": "Not publicly present at inspected commit: DAS/ contains only README.md announcing future release",
+    "implementation_relationship": "Conceptually informed independent implementation; not official DAS, not a complete reproduction, no benchmark-equivalence claim."
+  },
+  "inspection": {
+    "mode": "Read-only HTTPS retrieval and targeted source inspection",
+    "hash_algorithm": "SHA-256",
+    "hash_scope": "Exact bytes returned by pinned raw-file HTTP requests; web page hashes identify retrieved HTML bytes and may change with page chrome.",
+    "remote_code_executed": false,
+    "remote_dependencies_installed": false,
+    "literature_lake_downloaded": false,
+    "upstream_code_copied": false,
+    "inspected_materials": "Project HTML, versioned paper HTML, GitHub commit/tree metadata, pinned README/protocol/schema files and evaluator code. Python source was read and hashed, never run.",
+    "local_copies_of_upstream_raw_files_retained": false
+  },
+  "sources": [
+    {
+      "kind": "project_html",
+      "url": "https://zhikaixu24.github.io/projects/DAS/",
+      "sha256": "d04ac7f38bc21c0e3e30c387a24b20b0cbd4d72c6741f1d07e4ff90a7a58fba6",
+      "bytes": 289883,
+      "fetched_at_utc": "2026-10-08T01:44:03Z",
+      "status": "fetched",
+      "used_for": "Author project landing page and primary-resource links"
+    },
+    {
+      "kind": "versioned_paper_html",
+      "url": "https://arxiv.org/html/2608.18034v1",
+      "sha256": "bb7a65568e23a5f4a7c27fd190b7d97a61f85b8e95e8f9a9ae3662280d87c924",
+      "bytes": 962365,
+      "fetched_at_utc": "2026-10-08T01:44:08Z",
+      "status": "fetched",
+      "used_for": "Sections 3 and Appendices B, C, E: workflow, source-access boundary and stated evaluation protocol"
+    },
+    {
+      "kind": "pinned_repository_file",
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/ZhikaiXu24/DAS/24fa88b3eee004f0926b978717ba4a716f79661a/README.md",
+      "sha256": "cffc39c3d9607252bcbf761bb8ce9ab4615b582158734fbe2a66c3d46208bf28",
+      "bytes": 17929,
+      "fetched_at_utc": "2026-10-08T01:43:02Z",
+      "repository_commit": "24fa88b3eee004f0926b978717ba4a716f79661a",
+      "browse_url": "https://github.com/ZhikaiXu24/DAS/blob/24fa88b3eee004f0926b978717ba4a716f79661a/README.md",
+      "used_for": "Method overview, release scope, evaluation families and literature lake coverage"
+    },
+    {
+      "kind": "pinned_repository_file",
+      "path": "DAS/README.md",
+      "url": "https://raw.githubusercontent.com/ZhikaiXu24/DAS/24fa88b3eee004f0926b978717ba4a716f79661a/DAS/README.md",
+      "sha256": "5a8ca16a4f6ee05e893cbd04e0b30e94228cfd276c0962d83d2bc9dbf9687b12",
+      "bytes": 182,
+      "fetched_at_utc": "2026-10-08T01:43:02Z",
+      "repository_commit": "24fa88b3eee004f0926b978717ba4a716f79661a",
+      "browse_url": "https://github.com/ZhikaiXu24/DAS/blob/24fa88b3eee004f0926b978717ba4a716f79661a/DAS/README.md",
+      "used_for": "Generation-code release boundary"
+    },
+    {
+      "kind": "pinned_repository_file",
+      "path": "DAS-Bench/README.md",
+      "url": "https://raw.githubusercontent.com/ZhikaiXu24/DAS/24fa88b3eee004f0926b978717ba4a716f79661a/DAS-Bench/README.md",
+      "sha256": "9b206efbb6b65501e5ec3383de96b429b4da0d99c1417f8d5c93861599ca9634",
+      "bytes": 9521,
+      "fetched_at_utc": "2026-10-08T01:43:03Z",
+      "repository_commit": "24fa88b3eee004f0926b978717ba4a716f79661a",
+      "browse_url": "https://github.com/ZhikaiXu24/DAS/blob/24fa88b3eee004f0926b978717ba4a716f79661a/DAS-Bench/README.md",
+      "used_for": "Evaluation package layout and published comparison conventions"
+    },
+    {
+      "kind": "pinned_repository_file",
+      "path": "DAS-Bench/benchmark/evaluation_protocol.md",
+      "url": "https://raw.githubusercontent.com/ZhikaiXu24/DAS/24fa88b3eee004f0926b978717ba4a716f79661a/DAS-Bench/benchmark/evaluation_protocol.md",
+      "sha256": "9f4cd3705022377b57c3d2a127b5a7b8daa72d63147594a8113eb960111bbe1f",
+      "bytes": 2890,
+      "fetched_at_utc": "2026-10-08T01:43:03Z",
+      "repository_commit": "24fa88b3eee004f0926b978717ba4a716f79661a",
+      "browse_url": "https://github.com/ZhikaiXu24/DAS/blob/24fa88b3eee004f0926b978717ba4a716f79661a/DAS-Bench/benchmark/evaluation_protocol.md",
+      "used_for": "Four families, sixteen criterion names, evidence inputs and score aggregation"
+    },
+    {
+      "kind": "pinned_repository_file",
+      "path": "DAS-Bench/benchmark/task_specification.md",
+      "url": "https://raw.githubusercontent.com/ZhikaiXu24/DAS/24fa88b3eee004f0926b978717ba4a716f79661a/DAS-Bench/benchmark/task_specification.md",
+      "sha256": "795ee2ea926f85c139dac191e617ebfec3a3380f6e395a26a7874cc197715472",
+      "bytes": 1080,
+      "fetched_at_utc": "2026-10-08T01:43:04Z",
+      "repository_commit": "24fa88b3eee004f0926b978717ba4a716f79661a",
+      "browse_url": "https://github.com/ZhikaiXu24/DAS/blob/24fa88b3eee004f0926b978717ba4a716f79661a/DAS-Bench/benchmark/task_specification.md",
+      "used_for": "Benchmark-specific candidate pool and output conditions, excluded from generic workflow defaults"
+    },
+    {
+      "kind": "pinned_repository_file",
+      "path": "DAS-Bench/benchmark/metadata_schema.json",
+      "url": "https://raw.githubusercontent.com/ZhikaiXu24/DAS/24fa88b3eee004f0926b978717ba4a716f79661a/DAS-Bench/benchmark/metadata_schema.json",
+      "sha256": "9dc4423357f7f07510ed7e1eed7f783e58a75224b8e878154118e0f923c183a4",
+      "bytes": 1043,
+      "fetched_at_utc": "2026-10-08T01:43:04Z",
+      "repository_commit": "24fa88b3eee004f0926b978717ba4a716f79661a",
+      "browse_url": "https://github.com/ZhikaiXu24/DAS/blob/24fa88b3eee004f0926b978717ba4a716f79661a/DAS-Bench/benchmark/metadata_schema.json",
+      "used_for": "Reusable paper representation groups; public schema is not a source-entailment guarantee"
+    },
+    {
+      "kind": "pinned_repository_file",
+      "path": "DAS-Bench/evaluation/eval_bsc.py",
+      "url": "https://raw.githubusercontent.com/ZhikaiXu24/DAS/24fa88b3eee004f0926b978717ba4a716f79661a/DAS-Bench/evaluation/eval_bsc.py",
+      "sha256": "05bf2ecfc562502fa1a3db5f83d0caf43306d40bc52490e950b7fbb6a757a988",
+      "bytes": 128332,
+      "fetched_at_utc": "2026-10-08T01:43:06Z",
+      "repository_commit": "24fa88b3eee004f0926b978717ba4a716f79661a",
+      "browse_url": "https://github.com/ZhikaiXu24/DAS/blob/24fa88b3eee004f0926b978717ba4a716f79661a/DAS-Bench/evaluation/eval_bsc.py",
+      "used_for": "Citation evidence cards, assessability calibration, year filter, sampling and citation-distribution separation"
+    },
+    {
+      "kind": "pinned_repository_file",
+      "path": "DAS-Bench/evaluation/eval_mar.py",
+      "url": "https://raw.githubusercontent.com/ZhikaiXu24/DAS/24fa88b3eee004f0926b978717ba4a716f79661a/DAS-Bench/evaluation/eval_mar.py",
+      "sha256": "3be517941353fd5b74386804d912d23ebda00af526f655a9ce528d0e210569fe",
+      "bytes": 35845,
+      "fetched_at_utc": "2026-10-08T01:43:07Z",
+      "repository_commit": "24fa88b3eee004f0926b978717ba4a716f79661a",
+      "browse_url": "https://github.com/ZhikaiXu24/DAS/blob/24fa88b3eee004f0926b978717ba4a716f79661a/DAS-Bench/evaluation/eval_mar.py",
+      "used_for": "Visible-artifact judge boundary, page sampling and rubric"
+    },
+    {
+      "kind": "pinned_repository_file",
+      "path": "DAS-Bench/evaluation/eval_tsq_hdq.py",
+      "url": "https://raw.githubusercontent.com/ZhikaiXu24/DAS/24fa88b3eee004f0926b978717ba4a716f79661a/DAS-Bench/evaluation/eval_tsq_hdq.py",
+      "sha256": "5db795b9939d7b094c87d0286271db89163b2571c02467753b0cf453c8e999cd",
+      "bytes": 70711,
+      "fetched_at_utc": "2026-10-08T01:43:08Z",
+      "repository_commit": "24fa88b3eee004f0926b978717ba4a716f79661a",
+      "browse_url": "https://github.com/ZhikaiXu24/DAS/blob/24fa88b3eee004f0926b978717ba4a716f79661a/DAS-Bench/evaluation/eval_tsq_hdq.py",
+      "used_for": "Discourse/taxonomy rubric, active PDF/image payload path and parsing safeguards"
+    },
+    {
+      "kind": "pinned_repository_file",
+      "path": "DAS-Bench/evaluation/eval_prepare.py",
+      "url": "https://raw.githubusercontent.com/ZhikaiXu24/DAS/24fa88b3eee004f0926b978717ba4a716f79661a/DAS-Bench/evaluation/eval_prepare.py",
+      "sha256": "e0a851809eba018cfe5ce39c3f76da9f13a17cfcb5c80d8c0f9c1d55f25d3595",
+      "bytes": 20025,
+      "fetched_at_utc": "2026-10-08T01:43:09Z",
+      "repository_commit": "24fa88b3eee004f0926b978717ba4a716f79661a",
+      "browse_url": "https://github.com/ZhikaiXu24/DAS/blob/24fa88b3eee004f0926b978717ba4a716f79661a/DAS-Bench/evaluation/eval_prepare.py",
+      "used_for": "Preprocessing boundaries; not adopted as a skill dependency"
+    },
+    {
+      "kind": "pinned_repository_file",
+      "path": "DAS-Bench/evaluation/run_eval_all.sh",
+      "url": "https://raw.githubusercontent.com/ZhikaiXu24/DAS/24fa88b3eee004f0926b978717ba4a716f79661a/DAS-Bench/evaluation/run_eval_all.sh",
+      "sha256": "5e8e7f4a5c7eb990ce8d6520905de7c8c018eb5465ed36636cbc9e962a28d2d4",
+      "bytes": 6220,
+      "fetched_at_utc": "2026-10-08T01:43:09Z",
+      "repository_commit": "24fa88b3eee004f0926b978717ba4a716f79661a",
+      "browse_url": "https://github.com/ZhikaiXu24/DAS/blob/24fa88b3eee004f0926b978717ba4a716f79661a/DAS-Bench/evaluation/run_eval_all.sh",
+      "used_for": "Stage execution behavior; completion is not proof of valid evaluation"
+    },
+    {
+      "kind": "pinned_repository_file",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/ZhikaiXu24/DAS/24fa88b3eee004f0926b978717ba4a716f79661a/LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "bytes": 11357,
+      "fetched_at_utc": "2026-10-08T01:43:09Z",
+      "repository_commit": "24fa88b3eee004f0926b978717ba4a716f79661a",
+      "browse_url": "https://github.com/ZhikaiXu24/DAS/blob/24fa88b3eee004f0926b978717ba4a716f79661a/LICENSE",
+      "used_for": "Upstream code/documentation license; no upstream implementation copied"
+    }
+  ],
+  "verified_boundaries": [
+    {
+      "claim": "Core generation implementation is not released at the pinned commit",
+      "sources": [
+        "DAS/README.md",
+        "README.md",
+        "GitHub recursive tree"
+      ],
+      "scope": "Status as inspected; may change later"
+    },
+    {
+      "claim": "The manuscript Reviewer described in Appendix C.4 does not read source papers and is not a source-level entailment verifier",
+      "sources": [
+        "arXiv:2608.18034v1 Appendix C.4"
+      ],
+      "scope": "Paper-described generation role, not all possible review tools"
+    },
+    {
+      "claim": "The BSC paper-content judge consumes compact abstract/metadata evidence cards rather than full paper evidence",
+      "sources": [
+        "DAS-Bench/evaluation/eval_bsc.py BSC_JUDGE_PROMPT",
+        "DAS-Bench/evaluation/eval_bsc.py compact_public_evidence_card",
+        "DAS-Bench/evaluation/eval_bsc.py build_evidence_card"
+      ],
+      "scope": "Citation semantic assessment can be limited by missing or compressed source details"
+    },
+    {
+      "claim": "The BSC reference-map filter defaults to arXiv years 2020 through 2026 and is called by the topic payload builder",
+      "sources": [
+        "DAS-Bench/evaluation/eval_bsc.py filter_ref_map_by_year",
+        "DAS-Bench/evaluation/eval_bsc.py build_topic_jsonl"
+      ],
+      "scope": "Not a generic scholarly-coverage boundary"
+    },
+    {
+      "claim": "BSC separates unavailable evaluator evidence from demonstrated manuscript defects",
+      "sources": [
+        "DAS-Bench/evaluation/eval_bsc.py BSC_JUDGE_PROMPT"
+      ],
+      "scope": "Prompt convention; workbench retains explicit unassessable status instead of treating neutral score as verified"
+    },
+    {
+      "claim": "MAR evaluates visible artifact presentation and explicitly excludes scientific correctness",
+      "sources": [
+        "DAS-Bench/evaluation/eval_mar.py MAR_JUDGE_PROMPT"
+      ],
+      "scope": "Rendered page evidence and declared sampling only"
+    },
+    {
+      "claim": "The active TSQ/HDQ runtime path sends full PDF or rendered images; local configuration can limit images to the first pages",
+      "sources": [
+        "DAS-Bench/evaluation/eval_tsq_hdq.py evaluate_tsq_hdq_sample",
+        "DAS-Bench/evaluation/eval_tsq_hdq.py _limit_image_paths"
+      ],
+      "scope": "Presence of Markdown/cap helpers does not prove they are active inputs to this path"
+    },
+    {
+      "claim": "Evaluation preprocessing disables formula recognition, and the generation metadata extraction described in the paper removes some trailing materials",
+      "sources": [
+        "DAS-Bench/evaluation/eval_prepare.py formula_enable=False setting",
+        "arXiv:2608.18034v1 Appendix B.2"
+      ],
+      "scope": "Evaluation preprocessing and offline metadata extraction are distinct processes"
+    },
+    {
+      "claim": "Runner can continue after an evaluation stage failure",
+      "sources": [
+        "DAS-Bench/evaluation/run_eval_all.sh run_step"
+      ],
+      "scope": "A finished process is not evidence of valid completed score outputs"
+    }
+  ],
+  "documentation_discrepancies": [
+    {
+      "sources": [
+        "DAS-Bench/benchmark/evaluation_protocol.md",
+        "DAS-Bench/evaluation/eval_bsc.py",
+        "DAS-Bench/evaluation/eval_mar.py",
+        "DAS-Bench/evaluation/eval_tsq_hdq.py"
+      ],
+      "observation": "Protocol says frozen evaluator prompts are not part of the current release; pinned Python evaluator files contain metric-specific judge prompts.",
+      "handling": "Use inspected code to describe present capabilities; do not claim the public documentation package is fully synchronized."
+    },
+    {
+      "sources": [
+        "README.md",
+        "DAS-Bench/README.md",
+        "arXiv:2608.18034v1"
+      ],
+      "observation": "Long forms for HDQ and MAR differ across artifacts (Discourse versus Drafting; Assembly versus Artifact).",
+      "handling": "Use family identifiers BSC/TSQ/HDQ/MAR and the adapted checklist; do not imply those naming differences define separate metrics."
+    }
+  ],
+  "adaptation_choices": [
+    "Preserve explicit literature, organization, writing and assembly states without requiring multiple agents or a large lake.",
+    "Add source-aware claim verification beyond manuscript discourse review.",
+    "Leave specialist rule packs and maintained-library adapters outside the generic core.",
+    "Use DOI/other identities and older/non-arXiv sources when relevant; no inherited hard year/provider filter.",
+    "Use null plus unassessable or not_applicable for missing audit input or out-of-scope deliverables; no missing-score imputation.",
+    "Label audit outputs adapted-workbench-v1; do not compare adapted scores directly with published DAS-Eval totals.",
+    "Expose evidence coverage, changed dependencies, scoped repair and unresolved findings separately from structural success."
+  ],
+  "refresh_policy": "Re-fetch the public release statement and record a new commit/hash set before updating claims about upstream code availability. If rubric or payload behavior changes, version the adapted profile and retain the previous run's identity."
+}

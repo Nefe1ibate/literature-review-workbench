@@ -1,0 +1,36 @@
+{
+  "schema_version": "literature-library-config/1",
+  "adapter": "mapped-ledger",
+  "library_root": "../topic-library",
+  "collections": {
+    "papers": {
+      "path": "../topic-library/catalog.json",
+      "format": "json",
+      "records_key": "papers",
+      "mapping": {
+        "id": "key",
+        "title": "title",
+        "authors": "authors",
+        "year": "year",
+        "doi": "doi",
+        "status": {"constant": "candidate"},
+        "read_status": "read_status",
+        "reading_scope": "reading_scope"
+      }
+    },
+    "sources": {
+      "path": "../topic-library/versions.jsonl",
+      "format": "jsonl",
+      "mapping": {
+        "id": "id",
+        "paper_id": "paper_key",
+        "path": "file",
+        "kind": "kind",
+        "version_label": "version",
+        "source_url": "url",
+        "sha256": "sha256",
+        "page_count": "pages"
+      }
+    }
+  }
+}
